@@ -1,0 +1,154 @@
+body{
+    background: url(wave.png);
+    font-family: Arial;
+}
+.container{
+    display: flex;
+    flex:1;
+}
+@media only screen and (max-width:780px){
+    .container{
+        display: block;
+    }
+}
+.right{
+    overflow: hidden;
+}
+nav{
+    text-align:center;
+}
+ul{
+    list-style-type: none;
+    display:inline-flex;
+   color:#f83307;
+   margin:30px 0 50px 0;
+   justify-content: center;
+   text-align:center;
+}
+li{
+    width:100px;
+    font-size:15px;
+   
+}
+li:nth-child(1){
+    width:120px;
+}
+li:nth-child(2){
+    width:170px;
+     font-size:15px
+    
+}
+
+.sign{   
+    width:100px;
+    border-radius:30px;
+    background-color:#5393ec;
+    color:white;
+}
+.circle{
+    border:solid 1px #ffcdc2;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-color:#ffcdc2;
+    margin-bottom: 20px;
+    margin-left:70px;
+}
+.image{
+    height:400px;
+    width:600px;
+    overflow:hidden;
+    margin-left:70px;
+}
+img{
+    width:100%;
+}
+.down{
+    display: flex;
+    flex:1;
+}
+.down-left{
+    padding-left:20px;
+    padding-right:20px; 
+    display:flex;
+    flex:1;
+    text-align:center;
+    width:32%;
+    height: 25%;
+    margin-top:5%;
+    margin-left:15%;
+    background-color: white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.down-right{
+    padding-left:20px;
+    padding-right:20px; 
+    background-color: white;
+    display:flex;
+    flex:1;
+    text-align:center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:32%;
+    height: 25%;
+    margin-top:5%;
+    margin-left:15%;
+}
+span{
+    color:#1e1e1e;
+    font-weight: bold;
+}
+p{
+    color:#404040;
+}
+
+.icon{
+    color:#fa3408;
+    font-size:50px;
+}
+.rotate{
+    transform:rotate(-20deg);
+    display: inline;
+
+}
+.left{
+    overflow:hidden;
+}
+.pet{ 
+    padding-left:9px; 
+    color:#fc370a;
+    font-weight: bold;
+}
+.provide{
+    color:#1e1e1e;
+    margin-top:30%;
+}
+.provide .left-button{
+    width:100%;
+    background-color:#5393ec;
+    border-radius:30px;
+    color:white;
+}
+
+.love{
+     padding-left:20px;
+    padding-right:20px; 
+    width:50%;
+    height: 26%;
+    text-align:center;
+    justify-content: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    margin-top:230px;
+    
+}
+footer{
+    background-color:#1465d8;
+    color:white;
+    text-align:center;
+    font-size:18px;
+    padding:10px;
+    margin:0;
+}
+
+
+
